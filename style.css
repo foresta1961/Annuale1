@@ -1,0 +1,15 @@
+table {
+    color: blue;
+    font-size: x-large;
+    font-family: Arial;
+    table-layout: auto;
+  }
+  h1 {
+    color: red;
+    font-size: xx-large;
+    font-family: Arial;
+  }
+  .modi{
+      background-color: rgb(235, 232, 228);
+  }
+  
