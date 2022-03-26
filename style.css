@@ -1,15 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  scroll-behavior: smooth;
+}
+h1{
+  font-size: 2em;
+  color: rgb(196, 19, 19);
+  text-align: center;
+  padding: 20% 0 0 0;
+  text-transform: uppercase;
+}
+.sezione {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+#gennaio {
+  background-color: #5500b5;
+}
+
+#febbraio {
+    background-image: url("immagini/tramonto1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300pt;
+    
+}
+
+#marzo {
+    background-image: url("immagini/tramonto4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300pt;
+}
+
+#aprile {
+  background: #33c5b5;
+}
+
 table {
-    color: blue;
-    font-size: x-large;
-    font-family: Arial;
-    table-layout: auto;
-  }
-  h1 {
-    color: red;
-    font-size: xx-large;
-    font-family: Arial;
-  }
-  .modi{
-      background-color: rgb(235, 232, 228);
-  }
-  
+  color: rgba(4, 4, 212, 0.705);
+  font-size: x-large;
+  font-family: Arial;
+  table-layout: auto;
+}
+.modi{
+  color: blue;
+}
+.cambio{
+  color: black;
+}
+
+
