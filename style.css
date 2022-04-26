@@ -32,20 +32,27 @@ h1 {
 }
 
 #marzo {
+  font-size: 1.3em;
   background-image: url("immagini/primavera1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 400pt;
 }
+.marz {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0-10px black;
+  color: blue;
+}
 
 #aprile {
+  font-size: 1.3em;
   background-image: url("immagini/aprile2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 400pt;
 }
 .apr {
-  color: greenyellow;
+  text-shadow: -1px 0 black, 0 10px black, 1px 0 black, 0-1px black;
+  color: rgb(193, 202, 28);
 }
 
 table {
@@ -55,11 +62,13 @@ table {
   font-family: Arial;
   table-layout: auto;
 }
-.modi {
-  color: blue;
-}
+
 .cambio {
   text-shadow: -1px 0 #ff0000, 0 1px #ff0000, 1px 0 #ff0000, 0 -1px #ff0000;
+  color: black;
+}
+.cambioA {
+  text-shadow: -1px 0 white, 0 1px black, 1px 0 black, 0 -1px black;
   color: black;
 }
 .bottone {
@@ -69,10 +78,10 @@ table {
   color: aliceblue;
 }
 .bottoneA {
-  background-color: rgb(35, 118, 177);
+  background-color: wheat;
   padding: 5px 10px;
   border-radius: 10px;
-  color: aliceblue;
+  color: black;
 }
 .bottoneM {
   background-color: rgb(149, 177, 35);
