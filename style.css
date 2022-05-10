@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 10;
 }
 body,
 html {
@@ -36,7 +36,7 @@ h1 {
   background-image: url("immagini/primavera1.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 400pt;
+  background-size: 450pt;
 }
 .marz {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0-10px black;
@@ -71,8 +71,14 @@ table {
   text-shadow: -1px 0 white, 0 1px black, 1px 0 black, 0 -1px black;
   color: black;
 }
-.bottone {
-  background-color: rgb(138, 9, 9);
+.bottoneF {
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.bottoneFF {
+  background-color: green;
   padding: 5px 10px;
   border-radius: 10px;
   color: aliceblue;
@@ -83,9 +89,45 @@ table {
   border-radius: 10px;
   color: black;
 }
+.bottoneAA {
+  background-color: wheat;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: black;
+}
 .bottoneM {
   background-color: rgb(149, 177, 35);
   padding: 5px 10px;
   border-radius: 10px;
   color: aliceblue;
+}
+.bottoneMM {
+  background-color: rgb(149, 177, 35);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.inizio {
+  padding: 100px 200px;
+  background-color: aqua;
+  color: #ff0000;
+}
+ul {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.bbb {
+  font-size: 3.5em;
+  text-shadow: -1px 0 black, 0 4px black, 1px 0 black, 0 -1px black;
+  color: red;
+  margin-top: -2cm;
+  text-align: center;
+  text-transform: uppercase;
+}
+.aaa {
+  text-shadow: -1px 0 black, 0 0px black, 2px 0 black, 0 -1px black;
+  color: yellow;
+}
+a {
+  color: blue;
 }
