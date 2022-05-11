@@ -3,11 +3,6 @@
   padding: 10;
 }
 body,
-a {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0-1px black;
-  text-decoration: none;
-  color: #ff0000;
-}
 html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -19,31 +14,6 @@ h1 {
   text-align: center;
   padding: 20% 0 0 0;
   text-transform: uppercase;
-}
-.IN {
-  text-shadow: -1px 0 black, 0 0px black, 5px 0 black, 0-1px black;
-  color: blue;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 3em;
-  position: absolute;
-  top: 0;
-  right: 20px;
-}
-.intro {
-  background-position: center;
-  background-size: 400pt;
-  margin-top: 150px;
-  margin-bottom: 80px;
-  color: blue;
-  list-style-type: none;
-  font-size: 1em;
-}
-.bottoneI {
-  margin-bottom: 90px;
-  background-color: blue;
-  padding: 5px 10px;
-  border-radius: 10px;
-  color: aliceblue;
 }
 .bottoneF {
   background-color: green;
